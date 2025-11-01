@@ -1,0 +1,82 @@
+/* --- BODY e CENTRALIZAÇÃO --- */
+body {
+    background-color: #f0f8ff; /* Fundo Azul Claro Suave */
+    color: #333; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* --- CONTAINER (Caixa Principal) --- */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    max-width: 450px; 
+    text-align: center;
+}
+
+h1 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* --- INPUT E BOTÃO DE CHUTAR --- */
+.input-area {
+    display: flex;
+    gap: 10px; 
+    margin-bottom: 20px;
+}
+
+#palpiteInput {
+    flex-grow: 1; 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #28a745; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1e7e34;
+}
+
+/* --- MENSAGENS E DICAS --- */
+.info {
+    font-size: 1.1em;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilos de mensagens do jogo */
+.error { color: #dc3545; }
+.vitoria { color: #28a745; font-weight: bold; }
+.derrota { color: #dc3545; font-weight: bold; }
+.dica-maior, .dica-menor { color: #007bff; }
+
+
+/* Botão de Reiniciar */
+#reiniciarBtn {
+    background-color: #6c757d; 
+    margin-top: 15px;
+    width: 100%;
+}
+#reiniciarBtn:hover {
+    background-color: #5a6268;
+}
